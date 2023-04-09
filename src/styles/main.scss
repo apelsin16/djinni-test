@@ -6,9 +6,10 @@
 // CSS-файлы библиотек
 @import "vendor/libs";
 
+// БЭМ-блоки
+@import "../blocks/modules/modules";
+
 // Основное
 @import "base/fonts";
 @import "base/general";
 
-// БЭМ-блоки
-@import "../blocks/modules/modules";
