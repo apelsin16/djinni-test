@@ -1,0 +1,23 @@
+extends layouts/default
+include helpers/mixins
+
+block variables
+	- const title = "Djinni test"
+
+block content
+	- const page = "index"
+	include ../blocks/modules/header/header
+
+	.container
+		.row
+			.col-6.col-lg-3.g-2
+				include ../blocks/modules/aside/aside
+			.col-lg-8.offset-lg-1
+				include ../blocks/modules/main/main
+
+
+	include ../blocks/modules/footer/footer
+
+block scripts
+	script(src="js/vendor.js")
+	script(src="js/main.js")

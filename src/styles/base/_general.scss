@@ -1,0 +1,66 @@
+:root {
+    --orange: #ED7135;
+    --text: #666666;
+    --dark: #292929;
+    --border: #EBEBEB;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.btn-success {
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+.btn-outline-secondary,
+.card-title {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.card-text {
+    color: var(--text);
+}
+
+[data-bs-theme=dark] {
+    .active-link {
+        color: #EBEBEB;
+    }
+    .main  {
+        .title {
+            color: #EBEBEB;
+        }
+        .btn-outline-dark {
+            background-color: #EBEBEB;
+            border-color: #EBEBEB;
+            color: var(--dark);
+        }
+        .btn-outline-secondary {
+            color: #EBEBEB;
+        }
+        .card-title {
+            color: #EBEBEB;
+        }
+        .card-footer {
+            background-color: #212529;
+        }
+    }
+
+}

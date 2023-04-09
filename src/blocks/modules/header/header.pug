@@ -1,0 +1,18 @@
+header(class='header container-fluid pt-3')
+    div.container
+        div.row.g-0
+            nav.col-6.col-lg-3.col-xl-4.nav
+                a.nav-link.pb-2.pb-lg-4(href="index.html" class=(page === "index" ? "active-link" : undefined)) Photos
+                a.nav-link.pb-2.pb-lg-4(href="videos.html" class=(page === "videos" ? "active-link" : undefined)) Videos
+                a.nav-link.pb-2.pb-lg-4(href="podcasts.html" class=(page === "podcasts" ? "active-link" : undefined)) Podcasts
+            form.col-12.col-lg-6.col-xl-6.search-form.order-2.order-lg-0.m-2.m-lg-0
+                div.input-group.rounded-pill.border
+                    div.input-group-prepend
+                        svg.magnifier
+                            use(xlink:href="img/sprites/sprite.svg#magnifier")
+                    input(class="form-control search-input border-0 rounded-end-pill" type="text")
+            div.col-6.col-lg-3.col-xl-2.d-flex.justify-content-end
+                select.custom-select.border-0.mb-4
+                    option English
+                    option Ukrainian
+                button(type='submit' class='btn mb-4') Sign in

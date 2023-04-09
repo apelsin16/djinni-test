@@ -1,0 +1,53 @@
+.aside {
+  padding-top: 56px;
+
+  .button {
+    text-align: left;
+    vertical-align: middle;
+
+    .smile {
+      transform: scale(1.3) ;
+
+      use {
+        stroke: var(--text);
+      }
+    }
+
+    .clock {
+      transform: scale(1.1) ;
+
+      use {
+        stroke: var(--text);
+      }
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+      margin-right: 11px;
+      margin-bottom: 4px;
+
+
+      use {
+        fill: var(--text);
+      }
+    }
+  }
+
+  .active {
+    background: var(--orange);
+    color: white;
+
+    svg use {
+      fill: white;
+    }
+
+    .clock use {
+      stroke: white;
+    }
+
+    .smile use {
+      stroke: white;
+    }
+  }
+}

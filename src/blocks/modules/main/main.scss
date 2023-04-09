@@ -1,0 +1,43 @@
+.main {
+  padding-top: 56px;
+
+  .title {
+    color: var(--dark);
+    font-weight: 700;
+  }
+
+  .items {
+    font-weight: 700;
+    color: var(--text);
+    font-size: 14px;
+  }
+
+  .btn-dark {
+    background: var(--dark);
+    color: white;
+  }
+
+  .btn-outline-dark {
+    border-color: var(--dark);
+    font-weight: 700;
+  }
+
+  .btn-outline-secondary {
+    border-color: var(--border);
+    font-weight: 700;
+    color: var(--dark);
+  }
+
+  .card-footer {
+    background-color: #fff;
+  }
+
+  .custom-text {
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}

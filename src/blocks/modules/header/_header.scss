@@ -1,0 +1,23 @@
+.header {
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-link {
+  color: #666666;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 16px;
+}
+
+.active-link {
+  font-weight: 700;
+  color: var(--dark);
+  border-bottom: 2px solid var(--orange);
+}
+
+svg.magnifier {
+  margin-left: 16px;
+  margin-top: 8px;
+  width: 16px;
+  height: 16px;
+}
