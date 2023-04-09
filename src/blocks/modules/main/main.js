@@ -69,7 +69,6 @@
                 data.map(el => {
                     cardText = lorem.slice(0, lorem.length * Math.random()/5);
                     const card = createCard(cardText, el.author, el.url);
-                    console.log(card);
                     cards.append(card);
                     // let card = `<div class="col-12 col-md-6">
                     //                 <div class="card"><img class="card-img-top" src="${el.url}" >
